@@ -1,0 +1,20 @@
+body {
+    font-family: "Poppns", Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(251, 245, 240);
+    /* переход на следующую строку после точки */
+    white-space: pre-line;
+    /* width: 800px; */
+    /* margin: 0 auto; */
+}
+
+span {
+    font-style: italic;
+    color: rgb(179, 17, 233);
+    font-size: larger;
+}
