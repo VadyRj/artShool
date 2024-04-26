@@ -1,5 +1,6 @@
 body {
     font-family: "Poppns", Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .container {
@@ -17,4 +18,23 @@ span {
     font-style: italic;
     color: rgb(179, 17, 233);
     font-size: larger;
+}
+
+.grid-container * {
+
+    background-color: rgb(204, 158, 60);
+    border: white;
+    border-radius: 5px;
+    padding: 10px;
+    /* position: fixed; */
+    
+}
+
+.grid-container{
+
+    display: grid;
+    margin-top: 20px;
+    column-gap: 20px;
+    grid-template-columns: repeat(2, 120px);
+    
 }
